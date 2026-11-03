@@ -1,0 +1,3 @@
+id,split,T_vision,failed_frames,failed_frame_pct,observation,reviewer,decision
+8qrpnFRGt2A$_$13,train,35,35,100.0,"Người nói cúi xuống như đang nhặt đồ, không thấy mặt. Quan sát của Bảo Hoàng.",Bảo Hoàng,"Giữ nguyên clip, nhãn và mask; chưa điền thiếu hoặc loại mẫu."
+5W7Z1C_fDaE$_$24,train,173,120,69.36,"Theo ước lượng khi xem, clip khoảng 5 giây nhưng chỉ thấy mặt khoảng 1,5 giây. Quan sát của Bảo Hoàng.",Bảo Hoàng,"Giữ nguyên clip, nhãn và mask; chưa điền thiếu hoặc loại mẫu."

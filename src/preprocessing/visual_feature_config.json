@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "extractor": "OpenFace",
+  "feature_dim": 22,
+  "feature_names": [
+    "AU01_r",
+    "AU02_r",
+    "AU04_r",
+    "AU05_r",
+    "AU06_r",
+    "AU07_r",
+    "AU09_r",
+    "AU10_r",
+    "AU12_r",
+    "AU14_r",
+    "AU15_r",
+    "AU17_r",
+    "AU20_r",
+    "AU23_r",
+    "AU25_r",
+    "AU26_r",
+    "AU45_r",
+    "pose_Rx",
+    "pose_Ry",
+    "pose_Rz",
+    "gaze_angle_x",
+    "gaze_angle_y"
+  ],
+  "feature_groups": {
+    "au_intensity": [
+      "AU01_r",
+      "AU02_r",
+      "AU04_r",
+      "AU05_r",
+      "AU06_r",
+      "AU07_r",
+      "AU09_r",
+      "AU10_r",
+      "AU12_r",
+      "AU14_r",
+      "AU15_r",
+      "AU17_r",
+      "AU20_r",
+      "AU23_r",
+      "AU25_r",
+      "AU26_r",
+      "AU45_r"
+    ],
+    "head_rotation": [
+      "pose_Rx",
+      "pose_Ry",
+      "pose_Rz"
+    ],
+    "gaze_angles": [
+      "gaze_angle_x",
+      "gaze_angle_y"
+    ]
+  },
+  "dtype": "float32",
+  "timestamp_unit": "seconds",
+  "metadata_columns": [
+    "frame",
+    "timestamp",
+    "success",
+    "confidence"
+  ],
+  "selection_basis": "Project configuration using documented OpenFace outputs: 17 AU intensities, 3 head rotation angles, 2 gaze angles.",
+  "reference_url": "https://github.com/TadasBaltrusaitis/OpenFace/wiki/Output-Format"
+}

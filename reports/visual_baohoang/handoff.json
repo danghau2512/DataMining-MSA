@@ -1,0 +1,54 @@
+{
+  "created_at_utc": "2026-11-03T03:45:26.927673+00:00",
+  "author": "Bảo Hoàng",
+  "repository": "danghau2512/DataMining-MSA",
+  "branch": "feat/preprocess-visual",
+  "clips": 2199,
+  "split_counts": {
+    "train": 1284,
+    "valid": 229,
+    "test": 686
+  },
+  "quality_counts": {
+    "ok": 2139,
+    "needs_review": 60
+  },
+  "manually_reviewed_clips": 2,
+  "signature": "3c908e7632a119a9bf6a88d0b4c96d7f21465ed35a57619483811ff9addc17a0",
+  "feature_dim": 22,
+  "feature_names": [
+    "AU01_r",
+    "AU02_r",
+    "AU04_r",
+    "AU05_r",
+    "AU06_r",
+    "AU07_r",
+    "AU09_r",
+    "AU10_r",
+    "AU12_r",
+    "AU14_r",
+    "AU15_r",
+    "AU17_r",
+    "AU20_r",
+    "AU23_r",
+    "AU25_r",
+    "AU26_r",
+    "AU45_r",
+    "pose_Rx",
+    "pose_Ry",
+    "pose_Rz",
+    "gaze_angle_x",
+    "gaze_angle_y"
+  ],
+  "feature_root_relative_to_CMU_MOSI": "preprocessing/visual/full_visual_22/3c908e7632a1",
+  "report_relative_to_CMU_MOSI": "preprocessing/visual/full_visual_22/3c908e7632a1/runs/20261102T140801_205739Z/visual_manifest.csv",
+  "shared_manifest_relative_to_CMU_MOSI": "preprocessing/shared/manifest.csv",
+  "previous_npz_verification": "Completed in Task 2.23 by notebook operator; this cell does not rerun NPZ verification.",
+  "large_files_included": false,
+  "limitations": [
+    "22D is the project OpenFace selection, not original MAG-BERT Facet features.",
+    "ok is a technical flag, not proof of tracking the correct speaker.",
+    "Only two of the 60 flagged clips have visual inspection notes.",
+    "No imputation, normalization or word alignment in this visual export."
+  ]
+}
