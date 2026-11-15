@@ -1,0 +1,16 @@
+{
+  "labels": {
+    "frozen": "Frozen BERT",
+    "finetune": "Fine-tune BERT"
+  },
+  "colors": {
+    "frozen": "#1f77b4",
+    "finetune": "#ff7f0e"
+  },
+  "markers": {
+    "frozen": "s",
+    "finetune": "o"
+  },
+  "style_reference": "Self-MM main uses Frozen BERT/Fine-tune BERT labels; no plotting code found.",
+  "selfmm_source": "https://github.com/danghau2512/DataMining-MSA/blob/main/src/notebooks/03_Train_Model_Self_MM.ipynb"
+}
